@@ -16,7 +16,7 @@ public class Main {
         iphone.iniciarCorreioVoz();
 
         System.out.println("====INTERNET====");
-        iphone.exibirPagina("http://www.DIO.com.br");
+        iphone.exibirPagina("https://www.DIO.com.br");
         iphone.adicionarNovaAba();
         iphone.atualizarPagina();
     }
