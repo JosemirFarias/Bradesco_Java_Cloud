@@ -13,7 +13,7 @@ public record Item(String nome, double preco, int quantidade) {
 }
 
 
-/* classe Item pode ser transformada em um record, pois ela é imutável e apenas contém atributos com métodos getters
+/*classe Item pode ser transformada em um record, pois ela é imutável e apenas contém atributos com métodos getters
 sem comportamento adicional.
 
 - Menos código: Remove construtor, getters e toString().
