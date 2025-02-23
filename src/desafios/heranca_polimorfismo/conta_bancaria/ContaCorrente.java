@@ -16,12 +16,23 @@ public class ContaCorrente extends Conta {
         }
     }
 
-    public void sacar(double valor) {
-        if (valor > 0) {
+    public boolean sacar(double valor) {
+        if (valor > 0 && valor <= getSaldo()) {
             setSaldo(getSaldo() - valor);
             System.out.println("Valor de R$ " + valor + " foi debitado sa sua conta!");
+            return true;
+        }  else {
+            System.out.println("Valor inválido!");
+            return false;
+        }
+    }
+
+    public void transferir(double valor, Conta contaDestino) {
+        if (this.sacar(valor)) {
+            contaDestino.depositar(valor);
+            System.out.println("Valor de R$ " + valor + " transferido com sucesso!");
         } else {
-            System.out.println("Saldo insuficiente!");
+            System.out.println("Transferência falhou!");
         }
     }
 
