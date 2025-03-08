@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d99433a7-68ae-4ad6-8d32-c1aad5e203eb" name="Changes" comment="Stream API">
-      <change afterPath="$PROJECT_DIR$/src/desafios/heranca_polimorfismo/conta_bancaria/Transferir.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafios/heranca_polimorfismo/conta_bancaria/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafios/heranca_polimorfismo/conta_bancaria/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafios/heranca_polimorfismo/conta_bancaria/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafios/heranca_polimorfismo/conta_bancaria/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafios/heranca_polimorfismo/conta_bancaria/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafios/heranca_polimorfismo/conta_bancaria/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/desafios/heranca_polimorfismo/conta_bancaria/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/desafios/heranca_polimorfismo/conta_bancaria/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/desafios/encapsulamentos/gerenciamento_conta/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,38 +45,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.CalculoDeSaldo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ListaOrdem.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoverValores.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SomaNumerosPares.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VerificarConta.executor&quot;: &quot;Run&quot;,
-    &quot;Application.VerificarPositivos.executor&quot;: &quot;Run&quot;,
-    &quot;Application.desafios.exerciciosInterfaces.automoveis.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.desafios.exerciciosInterfaces.projetoIphone.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.desafios.listas.compras.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/josemir/Documentos/Projetos JAVA/Bradesco_Java_Cloud&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CalculoDeSaldo.executor": "Run",
+    "Application.Conta$Main (1).executor": "Run",
+    "Application.Conta$Main.executor": "Run",
+    "Application.ContaTeste.executor": "Run",
+    "Application.ListaOrdem.executor": "Run",
+    "Application.Main (1).executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.RemoverValores.executor": "Run",
+    "Application.SomaNumerosPares.executor": "Run",
+    "Application.VerificarConta.executor": "Run",
+    "Application.VerificarPositivos.executor": "Run",
+    "Application.desafios.encapsulamentos.conta_empretimo.Main.executor": "Run",
+    "Application.desafios.exerciciosInterfaces.automoveis.Main.executor": "Run",
+    "Application.desafios.exerciciosInterfaces.projetoIphone.Main.executor": "Run",
+    "Application.desafios.listas.compras.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/josemir/Documentos/Projetos JAVA/iniciando-spring-boot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="ListaOrdem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_api.ListaOrdem" />
+}]]></component>
+  <component name="RunManager" selected="Application.desafios.encapsulamentos.conta_empretimo.Main">
+    <configuration name="Conta$Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Conta$Main" />
+      <module name="Bradesco_Java_Cloud" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Conta$Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.encapsulamentos.gerenciamento_conta.Conta$Main" />
       <module name="Bradesco_Java_Cloud" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_api.*" />
+          <option name="PATTERN" value="desafios.encapsulamentos.gerenciamento_conta.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,25 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SomaNumerosPares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_api.SomaNumerosPares" />
+    <configuration name="desafios.encapsulamentos.conta_empretimo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.encapsulamentos.conta_empretimo.Main" />
       <module name="Bradesco_Java_Cloud" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_api.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VerificarPositivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_api.VerificarPositivos" />
-      <module name="Bradesco_Java_Cloud" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stream_api.*" />
+          <option name="PATTERN" value="desafios.encapsulamentos.conta_empretimo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,19 +137,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.desafios.encapsulamentos.conta_empretimo.Main" />
+        <item itemvalue="Application.Conta$Main (1)" />
+        <item itemvalue="Application.Conta$Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.RemoverValores" />
-        <item itemvalue="Application.VerificarPositivos" />
-        <item itemvalue="Application.SomaNumerosPares" />
-        <item itemvalue="Application.ListaOrdem" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
-        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
       </set>
     </attachedChunks>
   </component>
@@ -183,7 +179,15 @@
       <workItem from="1739922869239" duration="5938000" />
       <workItem from="1740091702756" duration="236000" />
       <workItem from="1740307317714" duration="23000" />
-      <workItem from="1740307355707" duration="7757000" />
+      <workItem from="1740307355707" duration="8255000" />
+      <workItem from="1740322267648" duration="7770000" />
+      <workItem from="1740436177095" duration="499000" />
+      <workItem from="1740436692244" duration="1921000" />
+      <workItem from="1741215633087" duration="2298000" />
+      <workItem from="1741305722739" duration="224000" />
+      <workItem from="1741305958401" duration="2374000" />
+      <workItem from="1741368617210" duration="7178000" />
+      <workItem from="1741429309383" duration="4141000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos primitivos java">
       <option name="closed" value="true" />
