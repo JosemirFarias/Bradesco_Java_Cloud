@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99433a7-68ae-4ad6-8d32-c1aad5e203eb" name="Changes" comment="Stream API">
-      <change afterPath="$PROJECT_DIR$/src/desafios/encapsulamentos/gerenciamento_conta/Conta.java" afterDir="false" />
+    <list default="true" id="d99433a7-68ae-4ad6-8d32-c1aad5e203eb" name="Changes" comment="Desafio conta bancaria">
+      <change afterPath="$PROJECT_DIR$/src/desafios/Counter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +51,7 @@
     "Application.Conta$Main (1).executor": "Run",
     "Application.Conta$Main.executor": "Run",
     "Application.ContaTeste.executor": "Run",
+    "Application.Counter.executor": "Run",
     "Application.ListaOrdem.executor": "Run",
     "Application.Main (1).executor": "Run",
     "Application.Main.executor": "Run",
@@ -66,7 +67,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/josemir/Documentos/Projetos JAVA/iniciando-spring-boot",
+    "last_opened_file_path": "/home/josemir/Documentos/Projetos JAVA/Bradesco_Java_Cloud",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,7 +76,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.desafios.encapsulamentos.conta_empretimo.Main">
+  <component name="RunManager" selected="Application.Counter">
     <configuration name="Conta$Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Conta$Main" />
       <module name="Bradesco_Java_Cloud" />
@@ -96,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="desafios.heranca_polimorfismo.conta_bancaria.Main" />
+    <configuration name="Counter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.Counter" />
       <module name="Bradesco_Java_Cloud" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="desafios.heranca_polimorfismo.conta_bancaria.*" />
+          <option name="PATTERN" value="desafios.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoverValores" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stream_api.RemoverValores" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="desafios.heranca_polimorfismo.conta_bancaria.Main" />
       <module name="Bradesco_Java_Cloud" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="stream_api.*" />
+          <option name="PATTERN" value="desafios.heranca_polimorfismo.conta_bancaria.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,19 +138,19 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Counter" />
         <item itemvalue="Application.desafios.encapsulamentos.conta_empretimo.Main" />
         <item itemvalue="Application.Conta$Main (1)" />
         <item itemvalue="Application.Conta$Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.RemoverValores" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.25659.59" />
-        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.25659.59" />
+        <option value="bundled-jdk-9823dce3aa75-a94e463ab2e7-intellij.indexing.shared.core-IU-243.26053.27" />
+        <option value="bundled-js-predefined-d6986cc7102b-1632447f56bf-JavaScript-IU-243.26053.27" />
       </set>
     </attachedChunks>
   </component>
@@ -187,7 +188,8 @@
       <workItem from="1741305722739" duration="224000" />
       <workItem from="1741305958401" duration="2374000" />
       <workItem from="1741368617210" duration="7178000" />
-      <workItem from="1741429309383" duration="4141000" />
+      <workItem from="1741429309383" duration="5579000" />
+      <workItem from="1742749831411" duration="3637000" />
     </task>
     <task id="LOCAL-00001" summary="Tipos primitivos java">
       <option name="closed" value="true" />
@@ -221,7 +223,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740091899914</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Desafio conta bancaria">
+      <option name="closed" value="true" />
+      <created>1741433921503</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741433921503</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +242,7 @@
     <MESSAGE value="Interfaces." />
     <MESSAGE value="Collections." />
     <MESSAGE value="Stream API" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stream API" />
+    <MESSAGE value="Desafio conta bancaria" />
+    <option name="LAST_COMMIT_MESSAGE" value="Desafio conta bancaria" />
   </component>
 </project>
